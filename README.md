@@ -6,6 +6,16 @@ Python 감 떨어질라 감 떨어질라...
 2. 그 외의 {문자열 매칭, Subset, String 처리} 부분 류의 문제들은 파이썬으로 푼다.
 3. 그리디, 위상 정렬, Set Union, DP 등은 C++ 과 Python 같이 푼다.
 4. 해당 문제집은 2번 조건을 중심으로 설명한다.
+---
+
+## 파이썬 Debugging 방법
+1. C++ 와 Python 디버깅 방식은 통일한다.
+```python
+DEBUG = True #제출 시 DEBUG 는 False 로 변경한다.
+lists = [1,2,3]
+if DEBUG:
+    print(f"'설명 주저리'={lists}")
+```
 
 ---
 ## 연습
