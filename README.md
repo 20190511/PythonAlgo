@@ -15,6 +15,19 @@ DEBUG = True #제출 시 DEBUG 는 False 로 변경한다.
 lists = [1,2,3]
 if DEBUG:
     print(f"'설명 주저리'={lists}")
+
+```  
+2. 만일 DEBUG 변수를 다르게 두고싶으면 DEBUG2 형태로 둔다.
+```python
+DEBUG = True #제출 시 DEBUG 는 False 로 변경한다.
+DEBUG2 = True
+
+lists = [1,2,3]
+if DEBUG:
+    print(f"'설명 주저리'={lists}")
+
+if DEBUG2:
+    print(f"다르게 주고싶은데?{lists}")
 ```
 
 ---
